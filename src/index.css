@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+*{font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Work Sans', sans-serif;} 
+  
+
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.colmdx {
+  width: 100%;
+  max-width: 330px;
+  height: 500px;
+  border: 1px solid #000;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+}
+.colmdx:nth-child(1) {
+  background: url(https://i.ibb.co.com/4gpWRbV/screencapture-file-E-assignment-2-index-html-2023-06-28-23-56-01.png);
+  background-position: top;
+  background-size: cover;
+  transition: linear 3s;
+}
+.colmdx:nth-child(2) {
+  background: url(https://i.ibb.co/fFS6PWs/screencapture-localhost-5174-2023-07-02-01-18-12.png);
+  background-position: top;
+  background-size: cover;
+  transition: linear 3s;
+}
+.colmdx:nth-child(3) {
+  background: url(https://i.ibb.co/cTT1sRS/screencapture-assingment-12-29bf4-web-app-2023-06-28-23-48-30.png);
+  background-position: top;
+  background-size: cover;
+  transition: linear 3s;
+}
+.colmdx:hover {
+  background-position: bottom;
+} 
+
+

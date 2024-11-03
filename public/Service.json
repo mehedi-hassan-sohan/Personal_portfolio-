@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Web Developer",
+      "image": "https://i.ibb.co/NFmpQB2/developing-programming-coding-technologies-with-website-design-virtual-diagram-103164-375.jpg",
+      "description": "Experienced full-stack developer proficient in front-end and back-end technologies."
+    },
+    {
+      "title": "React Developer",
+      "image": "https://i.ibb.co/1mKc8VN/image.png",
+      "description": "Skilled React developer with expertise in building robust and efficient web applications using modern JavaScript libraries and frameworks."
+    },
+    {
+      "title": "MERN Stack Developer",
+      "image": "https://i.ibb.co/M9M3kb9/Mern-Stack-Development-companies.jpg",
+      "description": "Experienced MERN stack developer proficient in MongoDB, Express.js, React, and Node.js for building scalable and full-stack web applications."
+    },
+    {
+      "title": "Debbuging Error Fixer",
+      "image": "https://i.ibb.co/WshVtWn/ai-site-helping-with-software-production-1268-21620.jpg",
+      "description": "Experienced debugging error fixer adept at identifying and resolving issues in code to ensure smooth and error-free functionality."
+    },
+    {
+      "title": "JavaScript Developer",
+      "image": "https://i.ibb.co/mbxHndk/Skills-you-need-to-get-a-job-as-a-Java-Script-developer-1.png",
+      "description": "Skilled JavaScript developer proficient in creating dynamic and interactive web applications using JavaScript."
+    },
+    {
+      "title": "PSD to Tailwind CSS and Bootstrap Expert",
+      "image": "https://i.ibb.co/rFcXF4v/gradient-design-template-23-2149984510.jpg",
+      "description": "Expert in converting PSD designs into responsive web pages using Tailwind CSS and Bootstrap frameworks."
+    }
+  ]
+  
