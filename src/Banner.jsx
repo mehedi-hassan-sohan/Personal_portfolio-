@@ -4,13 +4,19 @@ import { motion } from "framer-motion";
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Banner = () => {
-  const [showPopup, setShowPopup] = useState(false);
+  const [showHireMePopup, setShowHireMePopup] = useState(false);
+  const [showFollowPopup, setShowFollowPopup] = useState(false);
   const contactRef = useRef(null);
 
   const handleHireMeClick = () => {
-    setShowPopup(true);
-    setTimeout(() => setShowPopup(false), 1500); // Hide the popup after 3 seconds
+    setShowHireMePopup(true);
+    setTimeout(() => setShowHireMePopup(false), 1500); // Hide the popup after 1.5 seconds
     contactRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleFollowClick = () => {
+    setShowFollowPopup(true);
+    setTimeout(() => setShowFollowPopup(false), 1500); // Hide the popup after 1.5 seconds
   };
 
   return (
@@ -46,12 +52,11 @@ const Banner = () => {
             />
           </p>
           <button onClick={handleHireMeClick} className="btn btn-outline hover:bg-black-200 mt-10">Hire Me</button>
-          {showPopup && (
+          {showHireMePopup && (
             <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-800 text-white px-8 py-4 rounded-md shadow-lg">
               <p>Thank you for your interest! <br />
                  Please Scroll Down To⬇️  <br /> 
-             
-                 </p>
+              </p>
             </div>
           )}
         </div>
@@ -64,16 +69,21 @@ const Banner = () => {
         <div className="md:w-[60%] mx-auto md:mt-12 mt-5">
           <img
             className="rounded-full mx-auto w-[70%]"
-            src="../public/Profile.png"
+            src="https://i.ibb.co.com/yg4HRQJ/Profile-1.png"
             alt=""
           /> 
           <div> 
             <h1 className="text-2xl font font-serif text-center">Mehedi Hassan</h1>
             <div className="flex gap-10 mt-2 justify-center">
               <div className="font-serif">Followers : 100K</div>
-              <div className="btn btn-sm btn-outline w-1/4 text-center font-bold px-1 cursor-pointer">
+              <div onClick={handleFollowClick} className="btn btn-sm btn-outline w-1/4 text-center font-bold px-1 cursor-pointer">
                 Follow
               </div>
+              {showFollowPopup && (
+                <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-800 text-white px-8 py-4 rounded-md shadow-lg">
+                  <p>Just kidding! It's not dynamic. 😅</p>
+                </div>
+              )}
             </div>
             <div className="text-center mt-3">
               <h1 className="text-xl font-bold">About Me</h1>
@@ -92,7 +102,6 @@ const Banner = () => {
       
       {/* Contact Section */}
       <div ref={contactRef} className="mt-20">
-      
         {/* Add your contact form or information here */}
       </div>
     </div>
