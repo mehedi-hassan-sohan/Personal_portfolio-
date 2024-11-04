@@ -89,10 +89,10 @@ const Banner = () => {
               <h1 className="text-xl font-bold">About Me</h1>
               <hr className="border-2 w-1/4 mx-auto" />
               <p className="mt-4 font-serif">
-                I am a passionate web developer with expertise in JavaScript, React, Node.js, and MongoDB, and a deep understanding of the MERN Stack architecture. I thrive on crafting unique and engaging 
+              I am a passionate web developer with expertise in JavaScript, React, Node.js, and MongoDB, and a deep understanding of the MERN Stack architecture. I thrive on crafting unique and engaging user experiences and am also a specialist in React Native app development, creating high-quality, cross-platform mobile applications."
                 <br />
                 <span className="text-xl font-bold mt-2 font-serif">
-                  web applications that captivate users and deliver exceptional experiences.
+                  Web and App that captivate users and deliver exceptional experiences.
                 </span>
               </p>
             </div>

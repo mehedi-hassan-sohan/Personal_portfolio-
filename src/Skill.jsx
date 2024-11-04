@@ -29,7 +29,10 @@ const Skill = () => {
        <img src="https://i.ibb.co/YjsJKGy/download.png" className="lg:w-[100px] lg:h-[100px] lg:ms-5 md:w-[100px] md:h-[100px] w-[100px] h-[100px]  rounded-full"  alt="" />
        <img src="https://i.ibb.co.com/HgzqPQ3/Next-JS-500x500.png" className="lg:w-[100px] lg:h-[100px] lg:ms-5 md:w-[100px] md:h-[100px] w-[100px] h-[100px]  rounded-full"  alt="" />
        <img src="https://i.ibb.co.com/2FxMH8G/type.png" className="pt-5 lg:w-[150px] lg:h-[120px] lg:ms-5 md:w-[100px] md:h-[100px] w-[180px] h-[100px]   rounded-full"  alt="" />
-       <img src="https://i.ibb.co.com/mN1qsjm/ps.png" className="mt-5 lg:w-[150px] lg:h-[100px] lg:ms-5 md:w-[200px] md:h-[100px] w-[120px] h-[120px]  rounded-full"  alt="" />
+       <img src="https://i.ibb.co.com/mN1qsjm/ps.png" className="mt-5 lg:w-[150px] lg:h-[100px] lg:ms-5 md:w-[200px] md:h-[100px] w-[120px] h-[120px]  rounded-full"  alt="" />    
+       <img src="https://i.ibb.co.com/BBxYdP2/7578010.webp" className="mt-5 lg:w-[110px] lg:h-[100px] lg:ms-5 md:w-[200px] md:h-[100px] w-[120px] h-[120px]  rounded-full"  alt="" />    
+
+       <iframe className='lg:w-[150px] lg:h-[150px] md:w-[100px] md:h-[100px] w-[100px] h-[100px]  rounded-full' src=""></iframe>
        
     
         
